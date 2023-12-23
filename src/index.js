@@ -1,13 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Hello from "./Hello";
+import Clock from "./Clock";
+import Clock2 from "./Clock2";
+import Props from "./Props";
+import reportWebVitals from "./reportWebVitals";
+import State from "./State";
+import Events from "./Events";
+import Events2 from "./Events2";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Props attr="p" attr2="VALUE2" attr3="Value3" /> */}
+    {/* {<State />} */}
+    {/* {<Clock2 />} */}
+    {/* {<Events />} */}
+    {<Events2 />}
   </React.StrictMode>
 );
 
